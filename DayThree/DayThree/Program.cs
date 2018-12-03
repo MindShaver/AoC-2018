@@ -2,7 +2,7 @@
 
 namespace DayThree
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -10,6 +10,7 @@ namespace DayThree
             var calculator = new ClaimCalculator(input);
 
             Console.WriteLine($"Solution to part one is {calculator.SolvePartOne()}");
+            Console.WriteLine($"Solution to part two is {calculator.SolvePartTwo()}");
             Console.ReadKey();
         }
     }

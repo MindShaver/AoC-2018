@@ -7,5 +7,6 @@
         public int Width;
         public int InchesFromTop;
         public int InchesFromLeft;
+        public bool NoOverlap;
     }
 }
